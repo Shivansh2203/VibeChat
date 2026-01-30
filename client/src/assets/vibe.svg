@@ -1,0 +1,35 @@
+<svg
+  viewBox="0 0 360 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Gradient for logo ONLY -->
+  <defs>
+    <linearGradient id="bubbleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+
+  <!-- Chat bubble (colored, NOT white) -->
+  <path
+    d="M60 20c-18 0-32 14-32 32 0 7 3 14 8 19l-4 12 14-6c4 1 8 2 14 2 18 0 32-14 32-32S78 20 60 20z"
+    fill="url(#bubbleGradient)"
+  />
+
+  <!-- Dots (white looks good inside bubble) -->
+  <circle cx="52" cy="52" r="4" fill="#ffffff" />
+  <circle cx="60" cy="52" r="4" fill="#ffffff" />
+  <circle cx="68" cy="52" r="4" fill="#ffffff" />
+
+  <!-- Text: WHITE -->
+  <text
+    x="120"
+    y="62"
+    font-size="36"
+    font-weight="600"
+    fill="#ffffff"
+    font-family="Inter, system-ui, -apple-system, sans-serif"
+  >
+    VibeChat
+  </text>
+</svg>
